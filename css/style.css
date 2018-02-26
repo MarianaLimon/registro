@@ -1,0 +1,8 @@
+/* Fondo de la pagina */
+
+ body {
+    background-image: url("/content/img/ladrillos.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
