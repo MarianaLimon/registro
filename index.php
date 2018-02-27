@@ -8,7 +8,9 @@
     <head>
         <title>Registro PromoXtreme</title>
         <script language="javascript" src="js/jquery-3.3.1.min.js"></script>
-        <LINK REL=StyleSheet HREF="/css/style.css" TYPE="text/css" MEDIA=screen>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     </head>
     <body>
     <?php
@@ -55,10 +57,10 @@
         exit;
     }
     // imprimir resultado de consulta
-    echo "<form id=\"combo\" name=\"combo\" action=\"guarda.php\" method=\"post\">";
+    echo "<center><form class=\"formulario\" id=\"combo\" name=\"combo\" action=\"guarda.php\" method=\"post\">";
     echo "<div>";
     ?>
-
+    <h3>Registrate para participar</h3>
     <input type="text" name="name" id="name" placeholder="Nombre..." value=""><br><br>
     <input type="email" name="mail" id="mail" placeholder="E-mail..." value=""><br><br>
     <input type="tel" name="tel" id="tel" placeholder="Teléfono..." value=""><br><br>
@@ -81,7 +83,7 @@
     <input type="submit" id="enviar" name="enviar" value="Guardar">
 
     <?php
-    echo "</form>";
+    echo "</form></center>";
 
     // cerrar conexion
     $resultado->free();
