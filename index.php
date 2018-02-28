@@ -60,7 +60,7 @@
     echo "<center><form class=\"formulario\" id=\"combo\" name=\"combo\" action=\"guarda.php\" method=\"post\">";
     echo "<div>";
     ?>
-    <h3>Registrate para participar</h3>
+    <br><h3>Registrate para participar</h3>
     <input type="text" name="name" id="name" placeholder="Nombre..." value=""><br><br>
     <input type="email" name="mail" id="mail" placeholder="E-mail..." value=""><br><br>
     <input type="tel" name="tel" id="tel" placeholder="Teléfono..." value=""><br><br>
